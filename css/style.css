@@ -190,6 +190,7 @@ ul {
   background-blend-mode: overlay;
   color: white;
   padding: 4rem 0;
+  padding-bottom: 8rem;
 }
 .services-section p {
   margin-left: 0;
@@ -272,6 +273,53 @@ ul {
   z-index: 2;
 }
 
+/* Floating Banner Section  */
+.banner-section {
+  margin-top: -60px;
+}
+.banner-section .banner-card {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 3rem 1.5rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.banner-card .banner-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.banner-card .banner-phone i {
+  font-size: 2rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-card .banner-phone .phone-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-card .phone-text span:last-child {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.banner-card p {
+  min-width: 300px;
+  max-width: 35%;
+  text-align: center;
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 768px) {
   h1 {
